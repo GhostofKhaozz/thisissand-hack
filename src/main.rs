@@ -34,9 +34,10 @@ async fn main() -> std::io::Result<()> {
         .text("fileHash", format!("{:x}", digest))
         .text("username", username)
         .text("caption", caption)
-        .text("mode", "web")
-        .text("hd", "0")
-        .text("appVersion", "2.5.0");
+        .text("tools", "{photoSand}")
+        .text("mode", "phone")
+        .text("hd", "1")
+        .text("appVersion", "2.4.5");
     let client = reqwest::Client::new();
     let result = match client
         .post(API_URL)
