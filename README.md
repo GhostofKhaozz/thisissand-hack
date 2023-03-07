@@ -1,3 +1,8 @@
+# Use This Instead
+Most people should be using the user script version instead of this code.
+
+You can find it [here on GreasyFork](https://greasyfork.org/en/scripts/461389-thisissand-image-hack).
+
 # Image upload hack for ThisIsSand
 This calls the same API that the ThisIsSand app does when you post your sand creations. It bypasses the *(terrible)* anticheat to let you post arbitrary JPEG-formatted images on the public gallery.
 
