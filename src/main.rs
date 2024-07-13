@@ -3,8 +3,8 @@ use std::fs::File;
 use std::io::prelude::*;
 use md5;
 
-const API_URL: &str = "https://api.thisissand.com/v2/pieces";    
-const SALT_PHRASE: &str = "ranskanperunat";
+const API_URL: &str = "";    
+const SALT_PHRASE: &str = "";
 
 #[tokio::main]
 async fn main() -> std::io::Result<()> {
