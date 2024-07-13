@@ -1,23 +1,13 @@
-# Use This Instead
-Most people should be using the user script version instead of this code.
+# Non-functional Image upload cheat for ThisIsSand
+This script is designed to upload arbitrary JPEG files to the public gallery on ThisIsSand, a sand drawing game.
 
-You can find it [here on GreasyFork](https://greasyfork.org/en/scripts/461389-thisissand-image-hack).
+**The gallery API hook URL and the secret salt phrase have been redacted. This script *will NOT work* even with them in place due to server-side updates. The script *will NOT* be updated.**
 
-# Image upload hack for ThisIsSand
-This calls the same API that the ThisIsSand app does when you post your sand creations. It bypasses the *(terrible)* anticheat to let you post arbitrary JPEG-formatted images on the public gallery.
+## DISCLAIMER
+**PLEASE** do not abuse this.
 
-## Disclaimer
-_PLEASE_ do not abuse this, or it will likely be patched quickly.
+This is **ONLY** a **proof of concept** to demonstrate the ineffectiveness of anticheat in web games that relies on obfuscation or "secrets" instead of techniques like server-authoritative game logic.
 
-This is only a proof of concept to demonstrate the ineffectiveness of anticheat in web games that relies on obfuscation or "secrets". The code is released for educational purposes only. I am *NOT* responsible in *ANY* way for the misuse of this code, or for any resulting damages caused to the ThisIsSand servers.
+This script **is not intended to be harmful** and does not perform any unexpected actions. All images uploaded are specified explicitly by the user.
 
-# Prerequisites
-You will probably need something like Gimp or ImageMagick to convert images to the right format. Needless to say, you will also need an Internet connection.
-
-# How to Use
-This program requires the following files in the same directory that you run it in:
-- `username.txt`: Put any username here.
-- `caption.txt`: Put a caption for your creation here.
-- `image.jpg `: Copy the image you want to upload here. The image file can't exceed the uploaded file size limit (around 2mb I think), and it seems to get rejected by the server if it's not in JPEG format.
-
-It will print out the MD5 hash of the file and the "secret" hash, and then attempt to submit the image to the public gallery before exiting.
+The code is released **for educational purposes only**. I am **NOT responsible in *ANY* way** for the misuse of this code or any derivatives by other users, or for any resulting damages caused to the ThisIsSand servers. By using this script, **YOU** are choosing to bypass anti-cheat measures and likely violate the game's TOS.
